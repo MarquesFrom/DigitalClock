@@ -1,0 +1,82 @@
+/* Definindo o corpo da pagina a ser exibido margens , fonte , fundo da pagina e suas posições */
+
+body {
+    margin:0;
+    font-family: sans-serif; /* fonte usada*/
+    display: flex;
+    flex-direction: column; /* alinhando suas posiçoes */
+    align-items: center; /* Posição dos itens */
+    height: 100vh;
+    justify-content: center; 
+    background: url(https://images7.alphacoders.com/617/thumb-1920-617537.jpg); /*Link da imagem */
+    background-size: cover;
+    overflow: hidden; /* Reação da pagina subir descer*/
+    
+}
+
+/*Definindo posições e estilizando borda de texto tamanho e cores dos objetos do "Relogio Digital"*/
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    
+    
+    
+    
+   
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 10px;
+    text-align: center;
+    color: whitesmoke;
+    
+
+}
+
+.clock {
+    display: flex;
+
+}
+
+.clock div {
+    margin: 5px
+}
+.clock span {
+    width: 100px;
+    height: 80px;
+    background:rgb(132, 97, 72);
+    opacity: .8;
+    color:white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) 
+}
+.clock .text {
+    height: 30px;
+    font-size : 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:rgb(95, 56, 28)
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: relative;
+    width: 30px;
+    height: 25px;
+    font-size: 13px;
+    background: rgb(95, 61, 36);
+}
+
+
+/* BY: ALISSON MARQUES - Aluno Digital House - Full Stack */  
+
+
